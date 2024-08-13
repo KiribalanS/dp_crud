@@ -14,7 +14,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-    String uri = "mongodb+srv://knight_wolf:Kiribalan12$@nvp1.vrzcyrw.mongodb.net/?retryWrites=true&w=majority&appName=nvp1";
+    String uri = "YOUR MONGO URI";
     // Create a MongoClient
     try (MongoClient mongoClient = MongoClients.create(uri)) {
       } catch (Exception e) {
